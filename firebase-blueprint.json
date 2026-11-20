@@ -1,0 +1,219 @@
+{
+  "entities": {
+    "Product": {
+      "title": "Product",
+      "description": "Bakery, catering, sandwich boxes, or gift product in catalog",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "object", "description": "Bilingual name {en, ar}" },
+        "description": { "type": "object", "description": "Bilingual description {en, ar}" },
+        "category": { "type": "string" },
+        "price": { "type": "number" },
+        "originalPrice": { "type": "number" },
+        "image": { "type": "string" },
+        "stock": { "type": "number" },
+        "isAvailable": { "type": "boolean" },
+        "isBestseller": { "type": "boolean" },
+        "isFeatured": { "type": "boolean" },
+        "ingredients": { "type": "object" },
+        "allergens": { "type": "object" },
+        "servingSize": { "type": "object" }
+      },
+      "required": ["name", "category", "price", "image", "stock", "isAvailable"]
+    },
+    "Order": {
+      "title": "Order",
+      "description": "Customer purchase order",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "customer": { "type": "object" },
+        "orderType": { "type": "string", "enum": ["delivery", "pickup"] },
+        "deliveryDate": { "type": "string" },
+        "deliveryTimeSlot": { "type": "string" },
+        "items": { "type": "array" },
+        "subtotal": { "type": "number" },
+        "deliveryFee": { "type": "number" },
+        "discount": { "type": "number" },
+        "couponCode": { "type": "string" },
+        "total": { "type": "number" },
+        "paymentMethod": { "type": "string" },
+        "paymentStatus": { "type": "string" },
+        "status": { "type": "string" },
+        "statusNotes": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["customer", "orderType", "items", "subtotal", "total", "status", "createdAt"]
+    },
+    "CateringRequest": {
+      "title": "CateringRequest",
+      "description": "Catering and large event quotation request",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "customerName": { "type": "string" },
+        "phone": { "type": "string" },
+        "email": { "type": "string" },
+        "eventType": { "type": "string" },
+        "guestCount": { "type": "number" },
+        "eventDate": { "type": "string" },
+        "location": { "type": "string" },
+        "estimatedBudget": { "type": "string" },
+        "requestedCategories": { "type": "array" },
+        "specialRequirements": { "type": "string" },
+        "status": { "type": "string" },
+        "quoteAmount": { "type": "number" },
+        "adminNotes": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["customerName", "phone", "eventType", "guestCount", "eventDate", "location", "status", "createdAt"]
+    },
+    "Coupon": {
+      "title": "Coupon",
+      "description": "Discount coupon code",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "code": { "type": "string" },
+        "discountType": { "type": "string", "enum": ["percentage", "fixed"] },
+        "discountValue": { "type": "number" },
+        "minOrderValue": { "type": "number" },
+        "expiresAt": { "type": "string" },
+        "isActive": { "type": "boolean" },
+        "usageCount": { "type": "number" }
+      },
+      "required": ["code", "discountType", "discountValue", "isActive"]
+    },
+    "StoreSettings": {
+      "title": "StoreSettings",
+      "description": "Global storefront configurations and contacts",
+      "type": "object",
+      "properties": {
+        "storeName": { "type": "object" },
+        "tagline": { "type": "object" },
+        "whatsappNumber": { "type": "string" },
+        "supportPhone": { "type": "string" },
+        "supportEmail": { "type": "string" },
+        "address": { "type": "object" },
+        "deliveryFee": { "type": "number" },
+        "freeDeliveryThreshold": { "type": "number" },
+        "bankDetails": { "type": "object" },
+        "announcementEn": { "type": "string" },
+        "announcementAr": { "type": "string" },
+        "currency": { "type": "string" }
+      },
+      "required": ["whatsappNumber", "deliveryFee"]
+    },
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Customer and administrator account profile",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "role": { "type": "string", "enum": ["customer", "admin"] },
+        "wishlist": { "type": "array", "description": "Saved wishlist product IDs" },
+        "savedAddresses": { "type": "array" }
+      },
+      "required": ["name", "email", "role"]
+    },
+    "BulkQuotationRequest": {
+      "title": "BulkQuotationRequest",
+      "description": "Bulk distribution quotation inquiry (50 to 500+ boxes)",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "customerName": { "type": "string" },
+        "organizationName": { "type": "string" },
+        "phone": { "type": "string" },
+        "email": { "type": "string" },
+        "boxType": { "type": "string" },
+        "targetBoxName": { "type": "string" },
+        "boxQuantity": { "type": "number" },
+        "eventDate": { "type": "string" },
+        "deliveryAddress": { "type": "string" },
+        "eventType": { "type": "string" },
+        "specialInstructions": { "type": "string" },
+        "status": { "type": "string" },
+        "quotedUnitPrice": { "type": "number" },
+        "quotedTotal": { "type": "number" },
+        "adminNotes": { "type": "string" }
+      },
+      "required": ["customerName", "phone", "email", "boxQuantity", "eventDate", "deliveryAddress", "status", "createdAt"]
+    },
+    "BoxTemplate": {
+      "title": "BoxTemplate",
+      "description": "Configurable ready-made box template for admin management",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "object" },
+        "description": { "type": "object" },
+        "category": { "type": "string" },
+        "basePrice": { "type": "number" },
+        "capacity": { "type": "number" },
+        "defaultContents": { "type": "object" },
+        "image": { "type": "string" },
+        "isAvailable": { "type": "boolean" },
+        "minOrderQuantity": { "type": "number" },
+        "maxOrderQuantity": { "type": "number" }
+      },
+      "required": ["name", "basePrice", "capacity", "image", "isAvailable"]
+    },
+    "InventoryItem": {
+      "title": "InventoryItem",
+      "description": "Packaging material and ribbon supply stock item",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "nameAr": { "type": "string" },
+        "stock": { "type": "number" },
+        "minThreshold": { "type": "number" }
+      },
+      "required": ["id", "name", "stock", "minThreshold"]
+    }
+  },
+  "firestore": {
+    "/products/{productId}": {
+      "schema": { "$ref": "#/entities/Product" },
+      "description": "Product catalog items"
+    },
+    "/orders/{orderId}": {
+      "schema": { "$ref": "#/entities/Order" },
+      "description": "Customer order records"
+    },
+    "/cateringRequests/{requestId}": {
+      "schema": { "$ref": "#/entities/CateringRequest" },
+      "description": "Event and corporate catering quotation inquiries"
+    },
+    "/quotations/{quotationId}": {
+      "schema": { "$ref": "#/entities/BulkQuotationRequest" },
+      "description": "Bulk distribution quotation requests"
+    },
+    "/boxTemplates/{templateId}": {
+      "schema": { "$ref": "#/entities/BoxTemplate" },
+      "description": "Ready-made and custom box templates"
+    },
+    "/inventory/{itemId}": {
+      "schema": { "$ref": "#/entities/InventoryItem" },
+      "description": "Packaging and ribbon supply stock levels"
+    },
+    "/coupons/{couponId}": {
+      "schema": { "$ref": "#/entities/Coupon" },
+      "description": "Promotional discount codes"
+    },
+    "/settings/{settingId}": {
+      "schema": { "$ref": "#/entities/StoreSettings" },
+      "description": "Storefront configuration"
+    },
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/UserProfile" },
+      "description": "User profiles and saved delivery addresses"
+    }
+  }
+}

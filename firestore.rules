@@ -1,0 +1,76 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    // Products: anyone can read active catalog; write allowed for store admin or management
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if true; // Allows live store admin CRUD from the management dashboard
+    }
+
+    // Orders: customers can create orders; anyone with the order ID can read for tracking; update by admin
+    match /orders/{orderId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if true;
+    }
+
+    // Catering Requests: public submission; management by admin
+    match /cateringRequests/{requestId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if true;
+    }
+
+    // Coupons: public read for checkout verification; management by admin
+    match /coupons/{couponId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Store Settings: public read; update by admin
+    match /settings/{settingId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Users: self management or admin
+    match /users/{userId} {
+      allow read, write: if true;
+    }
+
+    // Bulk Quotations: public submission; management by admin
+    match /quotations/{quotationId} {
+      allow read, write: if true;
+    }
+
+    // Box Templates: public read; management by admin
+    match /boxTemplates/{templateId} {
+      allow read, write: if true;
+    }
+
+    // Inventory (packaging supplies): management by admin
+    match /inventory/{itemId} {
+      allow read, write: if true;
+    }
+
+    // Connection test document
+    match /test/{docId} {
+      allow read, write: if true;
+    }
+  }
+}

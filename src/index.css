@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FFF7EA;
+  --color-pink: #F47AA6;
+  --color-pink-hover: #E25B8D;
+  --color-pink-light: #FDEBF2;
+  --color-brown: #542719;
+  --color-brown-light: #733926;
+  --color-brown-dark: #3A180E;
+  --color-gold: #D9A441;
+  --color-gold-hover: #C4902F;
+  --color-gold-light: #FBF4E4;
+  --color-beige: #F5E8D5;
+  --color-beige-dark: #EAD6BC;
+
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-arabic: 'Cairo', system-ui, -apple-system, sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+}
+
+:root {
+  --ft-cream: #FFF7EA;
+  --ft-pink: #F47AA6;
+  --ft-brown: #542719;
+  --ft-gold: #D9A441;
+  --ft-beige: #F5E8D5;
+}
+
+html[dir="rtl"] {
+  font-family: var(--font-arabic), system-ui, sans-serif;
+}
+
+html[dir="ltr"] {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Print styles for invoices */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF7EA;
+}
+::-webkit-scrollbar-thumb {
+  background: #EAD6BC;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D9A441;
+}

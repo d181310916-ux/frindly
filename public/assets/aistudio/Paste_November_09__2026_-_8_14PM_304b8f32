@@ -1,0 +1,1227 @@
+# FRIENDLY TABLE
+# COMPLETE PREMIUM E-COMMERCE APPLICATION
+## Full Development, Visual Menu, Custom Boxes, Catering & Admin Dashboard
+
+Act as a senior full-stack developer, professional UI/UX designer, food branding specialist, database architect, and e-commerce application developer.
+
+Your task is to BUILD and COMPLETE the existing Friendly Table application in Google AI Studio.
+
+This is a complete commercial e-commerce project, not a static website, visual prototype, or simple landing page.
+
+Continue developing the existing project. Preserve all previously implemented features and branding. Do not replace the existing application with a new project.
+
+The final application must be fully functional, bilingual, responsive, connected to Firebase, and ready for real business operations after configuration.
+
+---
+
+# 1. BRAND IDENTITY
+
+Brand Name:
+
+FRIENDLY TABLE
+
+Tagline:
+
+Good Food, Happy Moments
+
+Business Categories:
+
+BAKERY • CATERING • GIFTS • EVENTS
+
+## Official Logo
+
+Use the uploaded Friendly Table logo as the official brand logo.
+
+Requirements:
+- Preserve the original logo.
+- Do not redesign, distort, crop, or recolor it.
+- Maintain its proportions.
+- Use it in the header, homepage, footer, customer account, invoices, and order confirmation.
+- Maintain a consistent visual identity throughout the application.
+
+## Brand Colors
+
+- Cream: #FFF7EA
+- Soft Pink: #F47AA6
+- Chocolate Brown: #542719
+- Warm Gold: #D9A441
+- Light Beige: #F5E8D5
+- White: #FFFFFF
+
+## Design Direction
+
+Create a cheerful, premium, elegant, and welcoming food brand.
+
+The visual experience must communicate:
+- Freshness.
+- Quality.
+- Happiness.
+- Hospitality.
+- Beautiful food presentation.
+- Premium packaging.
+- Special moments and celebrations.
+
+Use:
+- Elegant typography.
+- Rounded product cards.
+- Soft shadows.
+- Beautiful food photography.
+- Balanced spacing.
+- Attractive buttons.
+- Professional category banners.
+
+Avoid an overly childish design.
+
+---
+
+# 2. BILINGUAL APPLICATION
+
+Support two complete interface languages:
+
+1. English.
+2. Arabic.
+
+Requirements:
+- Complete Arabic translation.
+- Complete English translation.
+- Arabic RTL layout.
+- English LTR layout.
+- Language switcher.
+- Remember the customer's selected language.
+- Translate all menus, categories, product names, descriptions, buttons, forms, notifications, checkout, and dashboard.
+
+The application must work perfectly on:
+- Desktop.
+- Laptop.
+- Tablet.
+- Mobile phones.
+
+Prioritize mobile shopping usability.
+
+---
+
+# 3. PROFESSIONAL PRODUCT PHOTOGRAPHY
+
+Every product must have its own matching professional photograph.
+
+This is a critical requirement.
+
+Use realistic commercial food photography with:
+- Appetizing close-up shots.
+- Natural lighting.
+- Fresh ingredients.
+- Beautiful textures.
+- Elegant presentation.
+- Clean cream, white, or pastel backgrounds.
+- Consistent visual style.
+- Premium catering photography.
+
+Do not:
+- Reuse the same image for unrelated products.
+- Use random food photographs.
+- Use illustrations instead of real food photography.
+- Display unrelated placeholder images as real products.
+- Pretend a product image exists when it has not been uploaded.
+
+Each product should support:
+- Main photograph.
+- Additional photographs.
+- Product gallery.
+- Image replacement from admin dashboard.
+
+For boxes, provide separate photographs where possible:
+1. Closed packaging.
+2. Open box showing all contents.
+3. Close-up of the food items.
+
+If image generation or retrieval is unavailable, create a clear upload placeholder for administrators.
+
+Store permanent image references in Firebase Storage or another properly configured persistent storage service.
+
+---
+
+# 4. COMPLETE WEBSITE STRUCTURE
+
+Create the following main navigation:
+
+- Home.
+- Shop All.
+- Mini Sandwiches.
+- Finger Sandwiches.
+- Mini Croissants.
+- Premium Sandwiches.
+- Individual Snack Boxes.
+- Ready-Made Boxes.
+- Build Your Own Box.
+- Group & Party Boxes.
+- Bakery & Cakes.
+- Desserts.
+- Chocolates & Gifts.
+- Catering & Events.
+- About Us.
+- Contact Us.
+
+Header features:
+- Official logo.
+- Search.
+- Shopping cart.
+- Customer account.
+- Language switcher.
+- WhatsApp contact.
+
+## Homepage Hero
+
+Headline:
+
+Make Every Gathering Special
+
+Supporting text:
+
+Delicious food, beautiful boxes, and thoughtful gifts for every moment.
+
+Buttons:
+- Shop Now.
+- Build Your Own Box.
+- Explore Catering.
+
+Homepage sections:
+1. Best Sellers.
+2. Mini Sandwich Collection.
+3. Ready-Made Individual Boxes.
+4. Build Your Own Box.
+5. Group & Party Boxes.
+6. Bakery & Cakes.
+7. Chocolates & Gifts.
+8. Catering & Events.
+9. Customer Reviews.
+
+---
+
+# 5. COMPLETE MENU CATEGORIES
+
+## A. MINI SANDWICH COLLECTION
+
+Create a dedicated category:
+
+MINI SANDWICH COLLECTION
+
+Products:
+1. Mini Chicken Club.
+2. Mini Roast Beef.
+3. Mini Smoked Salmon.
+4. Mini Turkey & Cheese.
+5. Mini Tuna.
+6. Mini Egg Salad.
+7. Mini Chicken Caesar.
+8. Mini Grilled Chicken.
+9. Mini Mozzarella & Pesto.
+10. Mini Cheese & Cucumber.
+11. Mini Smoked Turkey.
+12. Mini Vegetarian.
+13. Mini Halloumi.
+14. Mini Pastrami.
+15. Friendly Table Signature Mini Sandwich.
+
+Each product must have:
+- Individual photograph.
+- English and Arabic name.
+- Description.
+- Ingredients.
+- Price.
+- Quantity selector.
+- Availability.
+- Add to Cart.
+- Product details.
+
+Offer assorted quantities:
+- 12 pieces.
+- 24 pieces.
+- 48 pieces.
+- 96 pieces.
+- Custom quantities.
+
+Allow customers to select mixed varieties and specify the quantity of each type.
+
+## B. FINGER SANDWICHES
+
+Products:
+1. Classic Triangle Sandwiches.
+2. Chicken Finger Sandwiches.
+3. Turkey Finger Sandwiches.
+4. Roast Beef Finger Sandwiches.
+5. Smoked Salmon Finger Sandwiches.
+6. Cheese Finger Sandwiches.
+7. Egg Salad Finger Sandwiches.
+8. Cucumber & Cream Cheese Finger Sandwiches.
+
+Offer assorted platters in multiple sizes.
+
+## C. MINI CROISSANTS & BRIOCHE
+
+Products:
+1. Mini Chicken Croissant.
+2. Turkey & Cheese Croissant.
+3. Smoked Salmon Croissant.
+4. Roast Beef Croissant.
+5. Cheese Croissant.
+6. Chocolate Mini Croissant.
+7. Butter Mini Croissant.
+8. Mini Brioche Chicken.
+9. Mini Brioche Beef.
+10. Mini Brioche Cheese.
+
+## D. MINI CLUB SANDWICHES
+
+Products:
+1. Chicken Club.
+2. Turkey Club.
+3. Roast Beef Club.
+4. Smoked Salmon Club.
+5. Tuna Club.
+6. Cheese Club.
+7. Vegetarian Club.
+
+## E. PREMIUM SANDWICHES
+
+Products:
+1. Smoked Salmon Sandwich.
+2. Roast Beef Sandwich.
+3. Chicken Caesar Sandwich.
+4. Grilled Chicken Sandwich.
+5. Turkey & Cheese Sandwich.
+6. Tuna Melt Sandwich.
+7. Mozzarella & Pesto Sandwich.
+8. Friendly Table Signature Sandwich.
+
+Bread options:
+- White Bread.
+- Brown Bread.
+- Multigrain Bread.
+- Brioche.
+- Croissant.
+- Baguette.
+
+## F. INDIVIDUAL SANDWICH BOXES
+
+Products:
+1. Classic Lunch Box.
+2. Premium Lunch Box.
+3. Chicken Lunch Box.
+4. Roast Beef Lunch Box.
+5. Smoked Salmon Lunch Box.
+6. Healthy Lunch Box.
+7. Kids Lunch Box.
+8. Friendly Table Signature Box.
+
+Each box can contain sandwiches, sides, desserts, and optional drinks.
+
+---
+
+# 6. INDIVIDUAL SNACK & PARTY BOXES
+
+Create a major independent category:
+
+INDIVIDUAL SNACK & PARTY BOXES
+
+Arabic name:
+
+بوكسات فردية وتوزيعات المناسبات
+
+This category is a core part of the business.
+
+Target customers:
+- Schools.
+- Universities.
+- Corporate offices.
+- Meetings.
+- Workshops.
+- Conferences.
+- Birthdays.
+- Children's parties.
+- Family gatherings.
+- Celebrations.
+- Corporate distributions.
+- Special occasions.
+
+Each box must have its own professional photograph showing the contents and packaging.
+
+## A. READY-MADE BOXES
+
+Create ready-made boxes with predefined contents and administrator-controlled prices.
+
+### 1. Mini Classic Box
+
+- 1 Mini Sandwich.
+- 1 Mini Cake.
+- 1 Juice.
+
+### 2. Double Sandwich Box
+
+- 2 Mini Sandwiches.
+- 1 Mini Cake.
+- 1 Juice.
+
+### 3. Premium Snack Box
+
+- 2 Premium Mini Sandwiches.
+- 1 Premium Cake Slice.
+- 1 Juice.
+- Optional chocolate piece.
+
+### 4. Sweet & Savory Box
+
+- 1 Mini Sandwich.
+- 1 Mini Croissant.
+- 1 Mini Dessert.
+- 1 Juice.
+
+### 5. Kids Party Box
+
+- 1 Mini Sandwich.
+- 1 Mini Cake or Cupcake.
+- 1 Juice.
+- Optional chocolate or cookie.
+- Child-friendly packaging.
+
+### 6. School Snack Box
+
+- 1 or 2 Mini Sandwiches.
+- 1 Mini Cake.
+- 1 Juice.
+- Optional fruit or cookie.
+
+### 7. University & Workshop Box
+
+- 2 Mini Sandwiches.
+- 1 Cake Slice.
+- 1 Juice.
+- Optional chocolate.
+
+### 8. Corporate Individual Box
+
+- 2 Premium Sandwiches.
+- 1 Premium Dessert.
+- 1 Juice or selected drink.
+- Elegant premium packaging.
+
+### 9. Mini Breakfast Box
+
+- Mini Croissant.
+- Mini Sandwich.
+- Mini Pastry.
+- Juice.
+
+### 10. Friendly Table Signature Box
+
+A premium individual box with selected sandwiches, desserts, drinks, and optional extras.
+
+IMPORTANT:
+All default box contents must be editable from the admin dashboard without changing application code.
+
+## B. BUILD YOUR OWN BOX
+
+Create a separate, prominent interactive shopping experience:
+
+BUILD YOUR OWN BOX
+
+Arabic title:
+
+صممي بوكسك بنفسك
+
+This feature must allow customers to create their own individual box from scratch.
+
+### Step 1: Choose Box Size
+
+Options:
+- Small.
+- Medium.
+- Large.
+- Premium.
+
+Each size must have administrator-configurable:
+- Base price.
+- Maximum capacity.
+- Packaging.
+- Available options.
+
+### Step 2: Choose Sandwiches
+
+Allow customers to choose:
+- 1 Mini Sandwich.
+- 2 Mini Sandwiches.
+- 3 Mini Sandwiches.
+- More, depending on box capacity.
+
+Available options:
+- Chicken Club.
+- Roast Beef.
+- Smoked Salmon.
+- Turkey & Cheese.
+- Tuna.
+- Egg Salad.
+- Chicken Caesar.
+- Grilled Chicken.
+- Mozzarella & Pesto.
+- Cheese & Cucumber.
+- Vegetarian.
+- Other active sandwich products.
+
+Show a small product image and price beside every choice.
+
+Allow mixed sandwich varieties and different quantities.
+
+### Step 3: Choose Cake or Dessert
+
+Options:
+- Mini Chocolate Cake.
+- Vanilla Cake.
+- Red Velvet Cake.
+- Mini Cupcake.
+- Brownie.
+- Mini Cheesecake.
+- Mini Tart.
+- Mini Eclair.
+- Cookie.
+- Other active dessert products.
+
+Allow quantities according to box size.
+
+### Step 4: Choose Drinks
+
+Options:
+- Orange Juice.
+- Apple Juice.
+- Mango Juice.
+- Mixed Fruit Juice.
+- Other administrator-added drinks.
+
+Allow the administrator to add, remove, and price drink options.
+
+### Step 5: Add Extras
+
+Optional extras:
+- Chocolate Piece.
+- Cookie.
+- Fruit Portion.
+- Mini Croissant.
+- Additional Sandwich.
+- Extra Dessert.
+- Personalized Message Card.
+- Premium Packaging.
+
+### Step 6: Choose Packaging
+
+Options:
+- Classic Friendly Table Box.
+- Premium Gift Box.
+- Kids Party Box.
+- Corporate Box.
+- Custom Occasion Box.
+
+Allow the customer to enter:
+- Event name.
+- Personalized message.
+- Preferred packaging color if available.
+- Special instructions.
+
+### Step 7: Preview and Price Calculation
+
+Display:
+- Selected box.
+- Selected sandwiches.
+- Selected desserts.
+- Selected drinks.
+- Extras.
+- Quantities.
+- Packaging.
+- Total price.
+
+Automatically calculate the total whenever an item or quantity changes.
+
+Display a live box summary.
+
+Allow customers to edit selections before adding the box to the cart.
+
+Prevent invalid quantities and selections beyond stock or box capacity.
+
+Save the exact selected contents as a structured custom box order.
+
+---
+
+# 7. TWO SALES OPTIONS: READY-MADE AND CUSTOMIZED
+
+This is a mandatory business feature.
+
+Do not force customers to select only predefined boxes.
+
+Every individual box category must clearly offer two different shopping methods.
+
+## OPTION 1: READY-MADE BOXES
+
+Arabic:
+
+بوكسات جاهزة
+
+Customers can:
+- Browse ready-made designs.
+- View a photograph of the box.
+- See its predefined contents.
+- View its fixed price.
+- Select quantity.
+- Add it directly to the cart.
+
+The administrator controls:
+- Box name.
+- Box photograph.
+- Contents.
+- Quantity of each item.
+- Price.
+- Availability.
+- Promotional price.
+- Packaging.
+
+The displayed contents and price must match the actual box configuration.
+
+## OPTION 2: BUILD YOUR OWN BOX
+
+Arabic:
+
+كوّني بوكسك بنفسك
+
+Customers can:
+- Select their box size.
+- Select sandwiches.
+- Select cake or dessert.
+- Select drinks.
+- Add extras.
+- Choose packaging.
+- Add a message.
+- View a live price calculation.
+- Add the custom box to the cart.
+
+The two options must have separate, clearly visible entry points on the category page.
+
+Example:
+
+READY-MADE BOXES
+Choose a beautiful box, ready to order.
+
+BUILD YOUR OWN BOX
+Choose exactly what you love.
+
+Use attractive photographs for both sections.
+
+---
+
+# 8. LARGE QUANTITY ORDERS AND DISTRIBUTIONS
+
+Support individual and bulk purchases through the same ordering system.
+
+Customers must be able to order:
+- 1 individual box.
+- 5 boxes.
+- 10 boxes.
+- 20 boxes.
+- 30 boxes.
+- 50 boxes.
+- 100 boxes.
+- 200 boxes.
+- 500+ boxes.
+
+Use configurable minimum and maximum quantities.
+
+For bulk orders, add:
+- Number of boxes.
+- Same contents for all boxes.
+- Different contents for each box, when enabled.
+- Event type.
+- Event date.
+- Delivery address.
+- Delivery time.
+- Personalized message.
+- Packaging preferences.
+- Special instructions.
+
+Provide a bulk order request option for quantities above a configurable threshold.
+
+Allow customers to request a quotation when the quantity or customization requires manual pricing.
+
+Do not invent discounts or bulk prices. The administrator must configure them.
+
+The application must clearly distinguish between:
+- Instant order with confirmed price.
+- Quotation request awaiting administrator approval.
+
+---
+
+# 9. GROUP & PARTY BOXES
+
+Create a separate category:
+
+GROUP & PARTY BOXES
+
+Products:
+1. Small Gathering Box.
+2. Family Box.
+3. Office Meeting Box.
+4. Premium Party Box.
+5. Mini Sandwich Party Box.
+6. Mixed Sandwich Platter.
+7. Executive Catering Box.
+8. Large Celebration Box.
+
+Allow customized quantities for:
+- 5 people.
+- 10 people.
+- 20 people.
+- 30 people.
+- 50 people.
+- 100 people.
+- 500+ people.
+
+Allow mixed sandwich varieties and additional desserts.
+
+---
+
+# 10. BAKERY & CROISSANTS
+
+Products:
+1. Butter Croissant.
+2. Chocolate Croissant.
+3. Cheese Croissant.
+4. Mini Danish.
+5. Cinnamon Rolls.
+6. Muffins.
+7. Mini Brioche.
+8. Savory Pastries.
+9. Cheese Pastries.
+10. Mini Quiches.
+
+# 11. CAKES & DESSERTS
+
+Products:
+1. Mini Cupcakes.
+2. Chocolate Brownies.
+3. Chocolate Cake.
+4. Vanilla Cake.
+5. Red Velvet Cake.
+6. Mini Cheesecakes.
+7. Mini Tarts.
+8. Chocolate Mousse Cups.
+9. Fruit Dessert Cups.
+10. Mini Eclairs.
+11. Cookies.
+12. Assorted Dessert Boxes.
+
+Allow:
+- Flavor selection.
+- Size selection.
+- Quantity.
+- Decorations.
+- Special messages.
+
+# 12. CHOCOLATES & GIFTS
+
+Products:
+1. Premium Chocolate Box.
+2. Assorted Chocolate Box.
+3. Mini Chocolate Gift Box.
+4. Luxury Gift Box.
+5. Corporate Chocolate Gifts.
+6. Thank You Gift Box.
+7. Birthday Gift Box.
+8. Customized Gift Box.
+9. Seasonal Gift Box.
+
+Allow:
+- Gift wrapping.
+- Personalized message.
+- Recipient name.
+- Delivery date.
+
+---
+
+# 13. CATERING & EVENTS
+
+Create a dedicated section for:
+- Corporate Meetings.
+- Office Breakfast.
+- Business Conferences.
+- School Events.
+- University Events.
+- Birthday Parties.
+- Family Gatherings.
+- Special Occasions.
+
+Allow customers to request customized catering quotations.
+
+Request fields:
+- Customer name.
+- Mobile number.
+- Event type.
+- Event date.
+- Number of guests.
+- Requested products.
+- Number of individual boxes.
+- Delivery location.
+- Budget range.
+- Special requirements.
+
+Allow administrators to:
+- Review requests.
+- Prepare quotations.
+- Update quotation status.
+- Send a quotation to the customer.
+- Convert an approved quotation into a real order.
+
+---
+
+# 14. PRODUCT DETAILS AND VISUAL MENU
+
+Each product card must include:
+- Unique matching photograph.
+- English and Arabic product names.
+- Description.
+- Ingredients.
+- Price in EGP.
+- Availability.
+- Quantity selector.
+- Add to Cart.
+- View Details.
+
+Product details page must include:
+- Large photograph.
+- Additional images.
+- Full description.
+- Ingredients.
+- Verified allergen information.
+- Available options.
+- Price.
+- Related products.
+
+Do not invent nutrition or allergen information.
+
+Use:
+- Four columns on large desktop screens.
+- Three columns on tablets.
+- Two columns on mobile screens.
+
+---
+
+# 15. SHOPPING CART AND CHECKOUT
+
+Implement a complete working cart.
+
+Features:
+- Add products.
+- Remove products.
+- Update quantities.
+- Edit customized boxes.
+- Display complete box contents.
+- Calculate subtotal.
+- Calculate discounts.
+- Calculate delivery fees.
+- Display final total.
+
+Checkout fields:
+- Customer name.
+- Mobile number.
+- Email.
+- Delivery address.
+- City and area.
+- Order date.
+- Preferred delivery time.
+- Delivery or pickup.
+- Payment method.
+- Special instructions.
+
+Payment options:
+- Cash on Delivery.
+- Bank Transfer.
+- Online Payment only after real payment gateway integration.
+
+Generate a unique order number.
+
+Show an order confirmation only after the order is successfully saved.
+
+---
+
+# 16. CUSTOMER ACCOUNT
+
+Allow customers to:
+- Register.
+- Log in.
+- Edit profile.
+- Save delivery addresses.
+- View order history.
+- Track orders.
+- Reorder.
+- View customized box details.
+- View quotations and their status.
+
+---
+
+# 17. COMPLETE ADMIN DASHBOARD
+
+Create a secure administration dashboard.
+
+## Dashboard Overview
+
+Display:
+- Total sales.
+- Total orders.
+- Pending orders.
+- Completed orders.
+- Cancelled orders.
+- Customers.
+- Best-selling products.
+- Most popular box combinations.
+- Low-stock products.
+- Bulk order statistics.
+
+## Product Management
+
+Administrators can:
+- Add products.
+- Edit products.
+- Delete products.
+- Upload images.
+- Replace images.
+- Add multiple photographs.
+- Edit Arabic and English names.
+- Edit descriptions.
+- Set prices.
+- Set availability.
+- Manage options.
+- Set promotional prices.
+- Mark best sellers.
+
+## Dedicated Box Management
+
+Create separate management screens for:
+
+1. Ready-Made Boxes.
+2. Customizable Boxes.
+3. School Boxes.
+4. Kids Party Boxes.
+5. Corporate Boxes.
+6. Individual Snack Boxes.
+7. Group Boxes.
+8. Gift Boxes.
+
+Allow administrators to configure:
+- Box name.
+- Description.
+- Product photograph.
+- Base price.
+- Default contents.
+- Quantities of included items.
+- Optional extras.
+- Available sizes.
+- Maximum capacity.
+- Packaging.
+- Customization rules.
+- Minimum order quantity.
+- Maximum order quantity.
+- Bulk order pricing.
+- Availability.
+
+Administrators must be able to change box contents without editing application code.
+
+## Inventory Management
+
+Manage:
+- Sandwiches.
+- Bakery products.
+- Desserts.
+- Drinks.
+- Ingredients.
+- Packaging materials.
+- Finished boxes.
+
+Support configurable recipes and ingredient stock deductions when orders are confirmed.
+
+Prevent duplicate stock deduction when order statuses change.
+
+## Order Management
+
+Order statuses:
+- New.
+- Confirmed.
+- Preparing.
+- Ready for Pickup.
+- Out for Delivery.
+- Completed.
+- Cancelled.
+
+Allow administrators to:
+- View order details.
+- View box contents.
+- Edit permitted order details.
+- Update order status.
+- Search by order number.
+- Filter by date and status.
+- Print invoices.
+- Manage delivery details.
+
+## Bulk Orders Management
+
+Create a separate section to manage:
+- School orders.
+- University distributions.
+- Corporate distributions.
+- Event orders.
+- Large quantities.
+- Custom box requests.
+- Quotations.
+
+Display customer details, quantities, box configurations, delivery date, and quotation status.
+
+## Customer Management
+
+Manage customer profiles, addresses, contact information, and order history.
+
+## Promotions
+
+Create coupons and offers with configurable:
+- Discount type.
+- Discount value.
+- Minimum order.
+- Expiration date.
+- Usage limits.
+
+## Website Settings
+
+Allow editing:
+- WhatsApp number.
+- Contact information.
+- Social media.
+- Homepage banners.
+- Delivery fees.
+- Minimum order.
+- Currency.
+- Business information.
+
+---
+
+# 18. FIREBASE BACKEND AND DATABASE
+
+Use:
+- React.
+- TypeScript.
+- Firebase Authentication.
+- Cloud Firestore.
+- Firebase Storage.
+- Cloud Functions or trusted server-side logic when required.
+
+Create collections for:
+- users.
+- admins.
+- products.
+- categories.
+- boxes.
+- boxTemplates.
+- customBoxes.
+- orders.
+- cateringRequests.
+- quotations.
+- inventory.
+- coupons.
+- settings.
+- reviews.
+
+Important database requirements:
+
+1. Store all product information permanently.
+2. Store image references persistently.
+3. Store the exact box contents at the time of ordering.
+4. Store the price of each item at the time of ordering.
+5. Store the selected box size and packaging.
+6. Store bulk order quantities and configuration.
+7. Validate prices and inventory on trusted backend logic.
+8. Use unique order IDs.
+9. Protect admin operations using verified roles.
+10. Apply secure Firestore security rules.
+11. Do not expose secret keys in frontend code.
+12. Do not rely on local browser storage as the permanent database.
+
+Do not claim Firebase is connected before actual configuration and successful testing.
+
+---
+
+# 19. SEARCH, FILTERS AND REPORTS
+
+Implement:
+- Arabic and English search.
+- Category filtering.
+- Price filtering.
+- Availability filtering.
+- Best sellers.
+- New arrivals.
+- Price sorting.
+- Popular box combinations.
+
+Reports:
+- Daily sales.
+- Weekly sales.
+- Monthly sales.
+- Product performance.
+- Box sales.
+- Ready-made box sales.
+- Custom box sales.
+- Bulk order reports.
+- Catering reports.
+- Inventory reports.
+
+Allow CSV export.
+
+---
+
+# 20. WHATSAPP INTEGRATION
+
+Add a WhatsApp contact button.
+
+Allow customers to send:
+- Product inquiries.
+- Custom box requests.
+- Catering requests.
+- Order summaries.
+- Bulk order inquiries.
+
+Order summaries should contain:
+- Order number.
+- Products.
+- Box contents.
+- Quantities.
+- Total.
+- Delivery details.
+
+The WhatsApp number must be configurable by the administrator.
+
+Do not invent a real business phone number.
+
+---
+
+# 21. REQUIRED APPLICATION PAGES
+
+Build:
+
+1. Home.
+2. Shop All.
+3. Mini Sandwich Collection.
+4. Finger Sandwiches.
+5. Mini Croissants.
+6. Mini Club Sandwiches.
+7. Premium Sandwiches.
+8. Individual Snack Boxes.
+9. Ready-Made Boxes.
+10. Build Your Own Box.
+11. Group & Party Boxes.
+12. Bakery & Croissants.
+13. Cakes & Desserts.
+14. Chocolates & Gifts.
+15. Catering & Events.
+16. Product Details.
+17. Shopping Cart.
+18. Checkout.
+19. Order Confirmation.
+20. Customer Login.
+21. Customer Registration.
+22. Customer Account.
+23. Order Tracking.
+24. About Us.
+25. Contact Us.
+26. Admin Login.
+27. Admin Dashboard.
+28. Product Management.
+29. Box Management.
+30. Category Management.
+31. Inventory Management.
+32. Order Management.
+33. Bulk Orders.
+34. Catering Requests.
+35. Quotations.
+36. Customer Management.
+37. Promotions.
+38. Reports.
+39. Website Settings.
+
+---
+
+# 22. TESTING AND QUALITY ASSURANCE
+
+Do not stop after building the visual interface.
+
+Test the complete customer journey:
+
+1. Browse the menu.
+2. Open a product.
+3. Select a ready-made box.
+4. Add it to the cart.
+5. Create a custom box.
+6. Select one or two mini sandwiches.
+7. Select cake.
+8. Select juice.
+9. Add optional extras.
+10. Choose packaging.
+11. Check automatic price calculation.
+12. Order one box.
+13. Order 100 boxes.
+14. Submit a bulk quotation request.
+15. Complete checkout.
+16. Verify order persistence in Firestore.
+17. Verify admin order management.
+18. Verify inventory updates.
+19. Verify customer order history.
+20. Test Arabic RTL and English LTR.
+21. Test mobile responsiveness.
+
+Do not show fake success messages.
+
+Do not use sample data as actual business transactions.
+
+If a feature is not configured, clearly indicate what remains to be configured.
+
+---
+
+# 23. FINAL EXPECTED RESULT
+
+Deliver a complete, premium, bilingual e-commerce application for:
+
+FRIENDLY TABLE
+
+BAKERY • CATERING • GIFTS • EVENTS
+
+Good Food, Happy Moments
+
+The store must offer:
+
+- Mini sandwiches of all varieties.
+- Finger sandwiches.
+- Croissants.
+- Premium sandwiches.
+- Individual sandwich boxes.
+- Ready-made individual snack boxes.
+- Customizable individual boxes.
+- School and university distributions.
+- Kids party boxes.
+- Corporate individual boxes.
+- Group and party boxes.
+- Bakery.
+- Cakes and desserts.
+- Chocolates and gifts.
+- Catering and event packages.
+
+MOST IMPORTANT BUSINESS REQUIREMENT:
+
+Customers must always have two clear choices:
+
+1. READY-MADE BOXES: Select a professionally designed box with predefined contents and a fixed price.
+
+2. BUILD YOUR OWN BOX: Choose the sandwiches, cake, juice, extras, and packaging independently, with automatic live price calculation.
+
+Support orders from one individual box to 500+ boxes.
+
+The owner must be able to control products, images, prices, box contents, inventory, orders, customers, quotations, and bulk distributions through a secure administration dashboard.
+
+Build the actual working application now. Preserve the existing project and branding. Do not deliver only a design or prototype.

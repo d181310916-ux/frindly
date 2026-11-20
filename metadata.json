@@ -1,0 +1,6 @@
+{
+  "name": "Friendly Table | Good Food, Happy Moments",
+  "description": "Complete e-commerce platform for Friendly Table: Bakery, Catering, Gifts & Events with custom box builder, bilingual EN/AR support, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
